@@ -53,8 +53,7 @@
 			children = (
 				D9B29E74296F509D003E8825 /* AppleMusicApp.swift */,
 				D9B29E76296F509D003E8825 /* ContentView.swift */,
-				D9B29E78296F509E003E8825 /* Assets.xcassets */,
-				D9B29E7A296F509E003E8825 /* Preview Content */,
+				D9B29E82296F524D003E8825 /* Resources */,
 			);
 			path = AppleMusic;
 			sourceTree = "<group>";
@@ -65,6 +64,15 @@
 				D9B29E7B296F509E003E8825 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9B29E82296F524D003E8825 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9B29E78296F509E003E8825 /* Assets.xcassets */,
+				D9B29E7A296F509E003E8825 /* Preview Content */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
