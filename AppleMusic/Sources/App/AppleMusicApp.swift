@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct AppleMusicApp: App {
+
+    @StateObject private var modelData = ModelData()
+        init() {
+            UITabBar.appearance().backgroundColor = .systemGray6
+        }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(modelData)
         }
     }
 }
