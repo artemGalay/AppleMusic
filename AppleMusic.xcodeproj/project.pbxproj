@@ -21,6 +21,10 @@
 		D9B29E98296F59E7003E8825 /* PlayButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29E97296F59E7003E8825 /* PlayButtonView.swift */; };
 		D9B29E9A296F5A00003E8825 /* VolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29E99296F5A00003E8825 /* VolumeView.swift */; };
 		D9B29E9C296F5A14003E8825 /* BottomButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29E9B296F5A14003E8825 /* BottomButtonsView.swift */; };
+		D9B29EA0296F5AB9003E8825 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29E9F296F5AB9003E8825 /* LibraryView.swift */; };
+		D9B29EA3296F5AEC003E8825 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EA2296F5AEC003E8825 /* ListView.swift */; };
+		D9B29EA5296F5B06003E8825 /* MediaRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EA4296F5B06003E8825 /* MediaRowView.swift */; };
+		D9B29EA8296F5B37003E8825 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EA7296F5B37003E8825 /* ListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		D9B29E97296F59E7003E8825 /* PlayButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButtonView.swift; sourceTree = "<group>"; };
 		D9B29E99296F5A00003E8825 /* VolumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeView.swift; sourceTree = "<group>"; };
 		D9B29E9B296F5A14003E8825 /* BottomButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonsView.swift; sourceTree = "<group>"; };
+		D9B29E9F296F5AB9003E8825 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		D9B29EA2296F5AEC003E8825 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D9B29EA4296F5B06003E8825 /* MediaRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaRowView.swift; sourceTree = "<group>"; };
+		D9B29EA7296F5B37003E8825 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,7 @@
 				D9B29E85296F584E003E8825 /* App */,
 				D9B29E86296F587B003E8825 /* MainModule */,
 				D9B29E89296F5915003E8825 /* PlayerModule */,
+				D9B29E9D296F5A84003E8825 /* MediaModule */,
 				D9B29E76296F509D003E8825 /* ContentView.swift */,
 			);
 			path = Sources;
@@ -143,6 +152,41 @@
 				D9B29E9B296F5A14003E8825 /* BottomButtonsView.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D9B29E9D296F5A84003E8825 /* MediaModule */ = {
+			isa = PBXGroup;
+			children = (
+				D9B29E9E296F5AAC003E8825 /* LibraryView */,
+				D9B29EA1296F5AD8003E8825 /* ListView */,
+			);
+			path = MediaModule;
+			sourceTree = "<group>";
+		};
+		D9B29E9E296F5AAC003E8825 /* LibraryView */ = {
+			isa = PBXGroup;
+			children = (
+				D9B29E9F296F5AB9003E8825 /* LibraryView.swift */,
+			);
+			path = LibraryView;
+			sourceTree = "<group>";
+		};
+		D9B29EA1296F5AD8003E8825 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				D9B29EA2296F5AEC003E8825 /* ListView.swift */,
+				D9B29EA4296F5B06003E8825 /* MediaRowView.swift */,
+				D9B29EA6296F5B19003E8825 /* Model */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		D9B29EA6296F5B19003E8825 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9B29EA7296F5B37003E8825 /* ListModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,12 +264,16 @@
 				D9B29E98296F59E7003E8825 /* PlayButtonView.swift in Sources */,
 				D9B29E92296F59A3003E8825 /* TrackInfoView.swift in Sources */,
 				D9B29E9A296F5A00003E8825 /* VolumeView.swift in Sources */,
+				D9B29EA0296F5AB9003E8825 /* LibraryView.swift in Sources */,
 				D9B29E9C296F5A14003E8825 /* BottomButtonsView.swift in Sources */,
+				D9B29EA8296F5B37003E8825 /* ListModel.swift in Sources */,
 				D9B29E75296F509D003E8825 /* AppleMusicApp.swift in Sources */,
 				D9B29E88296F58B4003E8825 /* MainView.swift in Sources */,
 				D9B29E96296F59D2003E8825 /* TimeView.swift in Sources */,
+				D9B29EA3296F5AEC003E8825 /* ListView.swift in Sources */,
 				D9B29E94296F59BD003E8825 /* PlayerMenu.swift in Sources */,
 				D9B29E8D296F5959003E8825 /* MediaPlayerDetailView.swift in Sources */,
+				D9B29EA5296F5B06003E8825 /* MediaRowView.swift in Sources */,
 				D9B29E8B296F5934003E8825 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
