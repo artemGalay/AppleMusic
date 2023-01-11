@@ -44,6 +44,16 @@
 		D9B29ED6296F5E5F003E8825 /* HorizontalSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29ED5296F5E5F003E8825 /* HorizontalSectionView.swift */; };
 		D9B29ED8296F5E74003E8825 /* HorizontalCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29ED7296F5E74003E8825 /* HorizontalCellView.swift */; };
 		D9B29EDB296F5EA4003E8825 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EDA296F5EA4003E8825 /* ModelData.swift */; };
+		D9B29EDE296F5F69003E8825 /* MainSearchUIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EDD296F5F69003E8825 /* MainSearchUIKitView.swift */; };
+		D9B29EE0296F5F80003E8825 /* SearchUIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EDF296F5F80003E8825 /* SearchUIKitView.swift */; };
+		D9B29EE2296F5FB2003E8825 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EE1296F5FB2003E8825 /* SearchViewController.swift */; };
+		D9B29EE4296F5FCF003E8825 /* SearchDetailUIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EE3296F5FCF003E8825 /* SearchDetailUIKitView.swift */; };
+		D9B29EE7296F6002003E8825 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EE6296F6002003E8825 /* CategoryCell.swift */; };
+		D9B29EEA296F602B003E8825 /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EE9296F602B003E8825 /* UIKitView.swift */; };
+		D9B29EED296F6066003E8825 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EEC296F6066003E8825 /* HeaderView.swift */; };
+		D9B29EF0296F6095003E8825 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EEF296F6095003E8825 /* UIImage+Extension.swift */; };
+		D9B29EF2296F60A9003E8825 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EF1296F60A9003E8825 /* UIView+Constraints.swift */; };
+		D9B29EF4296F60CB003E8825 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B29EF3296F60CB003E8825 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +95,16 @@
 		D9B29ED5296F5E5F003E8825 /* HorizontalSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSectionView.swift; sourceTree = "<group>"; };
 		D9B29ED7296F5E74003E8825 /* HorizontalCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCellView.swift; sourceTree = "<group>"; };
 		D9B29EDA296F5EA4003E8825 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D9B29EDD296F5F69003E8825 /* MainSearchUIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearchUIKitView.swift; sourceTree = "<group>"; };
+		D9B29EDF296F5F80003E8825 /* SearchUIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUIKitView.swift; sourceTree = "<group>"; };
+		D9B29EE1296F5FB2003E8825 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D9B29EE3296F5FCF003E8825 /* SearchDetailUIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailUIKitView.swift; sourceTree = "<group>"; };
+		D9B29EE6296F6002003E8825 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		D9B29EE9296F602B003E8825 /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
+		D9B29EEC296F6066003E8825 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D9B29EEF296F6095003E8825 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		D9B29EF1296F60A9003E8825 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		D9B29EF3296F60CB003E8825 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +170,7 @@
 				D9B29E9D296F5A84003E8825 /* MediaModule */,
 				D9B29EA9296F5B7D003E8825 /* RadioModule */,
 				D9B29EB6296F5CB2003E8825 /* SearchModule */,
+				D9B29EDC296F5F54003E8825 /* SearchUIKitModule */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -334,6 +355,55 @@
 			path = MainModel;
 			sourceTree = "<group>";
 		};
+		D9B29EDC296F5F54003E8825 /* SearchUIKitModule */ = {
+			isa = PBXGroup;
+			children = (
+				D9B29EDD296F5F69003E8825 /* MainSearchUIKitView.swift */,
+				D9B29EDF296F5F80003E8825 /* SearchUIKitView.swift */,
+				D9B29EE1296F5FB2003E8825 /* SearchViewController.swift */,
+				D9B29EE3296F5FCF003E8825 /* SearchDetailUIKitView.swift */,
+				D9B29EE5296F5FEE003E8825 /* Cell */,
+				D9B29EE8296F601A003E8825 /* View */,
+				D9B29EEB296F6042003E8825 /* Header */,
+				D9B29EEE296F6082003E8825 /* Helpers */,
+			);
+			path = SearchUIKitModule;
+			sourceTree = "<group>";
+		};
+		D9B29EE5296F5FEE003E8825 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D9B29EE6296F6002003E8825 /* CategoryCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D9B29EE8296F601A003E8825 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9B29EE9296F602B003E8825 /* UIKitView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9B29EEB296F6042003E8825 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D9B29EEC296F6066003E8825 /* HeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		D9B29EEE296F6082003E8825 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D9B29EEF296F6095003E8825 /* UIImage+Extension.swift */,
+				D9B29EF1296F60A9003E8825 /* UIView+Constraints.swift */,
+				D9B29EF3296F60CB003E8825 /* String+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -407,32 +477,42 @@
 				D9B29EB3296F5C51003E8825 /* StationView.swift in Sources */,
 				D9B29EB5296F5C63003E8825 /* StationSectionView.swift in Sources */,
 				D9B29ED2296F5E35003E8825 /* HorizontalListCellView.swift in Sources */,
+				D9B29EE0296F5F80003E8825 /* SearchUIKitView.swift in Sources */,
+				D9B29EE2296F5FB2003E8825 /* SearchViewController.swift in Sources */,
 				D9B29E90296F5987003E8825 /* ImageView.swift in Sources */,
 				D9B29E98296F59E7003E8825 /* PlayButtonView.swift in Sources */,
 				D9B29E92296F59A3003E8825 /* TrackInfoView.swift in Sources */,
 				D9B29E9A296F5A00003E8825 /* VolumeView.swift in Sources */,
 				D9B29EAB296F5B9A003E8825 /* RadioView.swift in Sources */,
+				D9B29EDE296F5F69003E8825 /* MainSearchUIKitView.swift in Sources */,
 				D9B29ECC296F5DFA003E8825 /* FavoritePlayList.swift in Sources */,
 				D9B29EC6296F5DB1003E8825 /* CategorySearchDetailView.swift in Sources */,
+				D9B29EED296F6066003E8825 /* HeaderView.swift in Sources */,
 				D9B29EBC296F5D19003E8825 /* CategoryModel.swift in Sources */,
 				D9B29EA0296F5AB9003E8825 /* LibraryView.swift in Sources */,
+				D9B29EF0296F6095003E8825 /* UIImage+Extension.swift in Sources */,
 				D9B29EB1296F5C19003E8825 /* RadioSectionView.swift in Sources */,
 				D9B29EC1296F5D5B003E8825 /* CategorySearchView.swift in Sources */,
 				D9B29ED6296F5E5F003E8825 /* HorizontalSectionView.swift in Sources */,
 				D9B29E9C296F5A14003E8825 /* BottomButtonsView.swift in Sources */,
+				D9B29EE7296F6002003E8825 /* CategoryCell.swift in Sources */,
 				D9B29EBE296F5D30003E8825 /* AlbumDataModel.swift in Sources */,
 				D9B29EC9296F5DD6003E8825 /* AlbumCategoryModel.swift in Sources */,
 				D9B29ECE296F5E0F003E8825 /* FavoritePlayListSection.swift in Sources */,
 				D9B29EB9296F5CEE003E8825 /* SearchView.swift in Sources */,
 				D9B29EA8296F5B37003E8825 /* ListModel.swift in Sources */,
 				D9B29ED4296F5E4E003E8825 /* HorizontalListView.swift in Sources */,
+				D9B29EF4296F60CB003E8825 /* String+Extension.swift in Sources */,
 				D9B29E75296F509D003E8825 /* AppleMusicApp.swift in Sources */,
 				D9B29E88296F58B4003E8825 /* MainView.swift in Sources */,
 				D9B29EC3296F5D6F003E8825 /* AlbumSectionView.swift in Sources */,
+				D9B29EF2296F60A9003E8825 /* UIView+Constraints.swift in Sources */,
 				D9B29E96296F59D2003E8825 /* TimeView.swift in Sources */,
 				D9B29EA3296F5AEC003E8825 /* ListView.swift in Sources */,
 				D9B29EDB296F5EA4003E8825 /* ModelData.swift in Sources */,
 				D9B29E94296F59BD003E8825 /* PlayerMenu.swift in Sources */,
+				D9B29EEA296F602B003E8825 /* UIKitView.swift in Sources */,
+				D9B29EE4296F5FCF003E8825 /* SearchDetailUIKitView.swift in Sources */,
 				D9B29EAE296F5BBA003E8825 /* RadioModel.swift in Sources */,
 				D9B29E8D296F5959003E8825 /* MediaPlayerDetailView.swift in Sources */,
 				D9B29ED8296F5E74003E8825 /* HorizontalCellView.swift in Sources */,
